@@ -53,7 +53,7 @@ int main()
 	cudaMemcpy( c, d_c, size, cudaMemcpyDeviceToHost );
 
 
-	printf( "c[0] = %d\n",0,c[0] );
+	printf( "c[0] = %d\n",c[0] );
 	printf( "c[%d] = %d\n",N-1, c[N-1] );
 
 	/* clean up */
